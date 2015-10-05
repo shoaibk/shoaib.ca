@@ -1,6 +1,7 @@
 // Vars and mixins
 
-$colorPrimary: #00BCD4;
+//$colorPrimary: #00BCD4;
+$colorPrimary: #690087;
 
 $avatarSize: 128px;
 $avatarSizeSmall: 96px;
@@ -183,7 +184,7 @@ body {
       }
     }
 
-    $links: twitter dribbble foursquare github medium foursquare googleplus email;
+    $links: twitter dribbble foursquare github medium foursquare googleplus email linkedin;
     @each $link in $links {
       .#{$link} { background-image: url(../images/icon_#{$link}.svg); }
     }
