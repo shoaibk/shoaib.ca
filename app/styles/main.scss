@@ -8,6 +8,7 @@ $avatarSizeSmall: 96px;
 
 $avatarBorder: 4px;
 $avatarBorderSmall: $avatarBorder;
+$avatarBackground: #8C3ECE;
 
 $mainPadding: 24px;
 
@@ -49,10 +50,13 @@ body {
 }
 
 .main-container {
+//  background-color: red;
 }
 
 .top {
-  background-color: #fff;
+   background-color: #fff;
+//  background-color: red;
+
 }
 
 .top, .bottom {
@@ -72,6 +76,7 @@ body {
     position: absolute;
     left: 0;
     top: 0;
+//    background-color: #fff;
     background-color: #fff;
     width: 100%;
 
@@ -147,7 +152,8 @@ body {
     background: url(../images/avatar.png);
     background-size: cover;
     border-radius: 50%;
-    background-color: #525252;
+//    background-color: #525252;
+    background-color: $avatarBackground;
     // box-shadow: 0 2px 2px rgba(#000, 0.2),
     //             0 4px 32px rgba(#000, 0.1);
     align-self: center;
